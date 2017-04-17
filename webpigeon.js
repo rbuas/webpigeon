@@ -8,6 +8,7 @@ function WebPigeon (options) {
     var self = this;
     self.options = Object.assign(WebPigeon.DEFAULTOPTIONS, options) || {};
     self.transporter = nodemailer.createTransport(self.options.smtp);
+    self.skinspider = self.options.skinspider || new SkinSpider(self.options.skinspiderconfig);
 }
 
 WebPigeon.DEFAULTOPTIONS = {
