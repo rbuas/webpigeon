@@ -13,11 +13,11 @@ function WebPigeon (options) {
 WebPigeon.DEFAULTOPTIONS = {
     smtp : {
         service : "MailGun",
-        domaine : "sandbox7675be11bc2a485e8ed106a5f916dfe4.mailgun.org",
-        api_key : "key-f26b43fc4e32cb9911f5bc63fe312b16",
+        domaine : "fff.mailgun.org",
+        api_key : "key-ffff",
         auth: {
-            user: 'postmaster@sandbox7675be11bc2a485e8ed106a5f916dfe4.mailgun.org',
-            pass: 'bcda9d2c8227c18bcdeec6e6a2b90a45'
+            user: 'ffff',
+            pass: 'ffff'
         }
     },
     fake : null
