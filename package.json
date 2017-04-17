@@ -1,0 +1,38 @@
+{
+  "name": "webpigeon",
+  "version": "0.0.1",
+  "description": "An abstraction to render templates.",
+  "author": "rbuas <rodrigobuas@gmail.com>",
+  "keywords": [
+    "skin",
+    "spider",
+    "template",
+    "render"
+  ],
+  "license": "MIT",
+  "main": "./webpigeon",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rbuas/webpigeon.git"
+  },
+  "dependencies": {
+    "jsext": "^1.0.0",
+    "nodemailer": "^4.0.1",
+    "skinspider": "^0.0.1"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4",
+    "moment": "^2.18.1",
+    "webdrone": "^1.0.1",
+    "webseed": "^1.0.1",
+    "yargs": "^4.8.0"
+  },
+  "scripts": {
+    "unittest": "mocha *.unittest.js",
+    "resttest": "mocha *.resttest.js"
+  }
+}
