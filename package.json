@@ -17,8 +17,7 @@
   },
   "dependencies": {
     "jsext": "^1.0.0",
-    "nodemailer": "^4.0.1",
-    "skinspider": "^0.0.1"
+    "nodemailer": "^4.0.1"
   },
   "devDependencies": {
     "express": "^4.13.4",
