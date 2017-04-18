@@ -1,6 +1,6 @@
 {
   "name": "webpigeon",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An abstraction to render templates.",
   "author": "rbuas <rodrigobuas@gmail.com>",
   "keywords": [
