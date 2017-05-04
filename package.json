@@ -16,7 +16,7 @@
     "url": "http://github.com/rbuas/webpigeon.git"
   },
   "dependencies": {
-    "jsext": "^1.0.6",
+    "jsext": "*",
     "nodemailer": "^4.0.1"
   },
   "devDependencies": {
@@ -26,8 +26,8 @@
     "chai": "^3.5.0",
     "mocha": "^2.4",
     "moment": "^2.18.1",
-    "webdrone": "^1.0.1",
-    "webseed": "^1.0.1",
+    "webdrone": "*",
+    "webseed": "*",
     "yargs": "^4.8.0"
   },
   "scripts": {
