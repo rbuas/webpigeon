@@ -16,7 +16,7 @@
     "url": "http://github.com/rbuas/webpigeon.git"
   },
   "dependencies": {
-    "jsext": "^1.0.0",
+    "jsext": "^1.0.6",
     "nodemailer": "^4.0.1"
   },
   "devDependencies": {
